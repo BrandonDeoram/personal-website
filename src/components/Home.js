@@ -20,9 +20,9 @@ export default function Home() {
                     I'm a software developer based in Toronto. A few interest have are in full-stack development, mobile devleopment, human-computer interactions, and everything in between.
                 </div>
                 <div className='resumeContainer'>
-                    <a href="src/resumeFolder/Software_Resume_LATEX.pdf">
-                        <button>Download File</button>
-                    </a>
+                    <button className='resumeButton'>
+                        Resume
+                    </button>
 
                 </div>
             </div>

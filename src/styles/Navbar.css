@@ -11,5 +11,11 @@
 .navitems {
     display: flex;
     flex-direction: column;
-    row-gap:8px;
+    row-gap: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidenavbar {
+        display: none;
+    }
 }

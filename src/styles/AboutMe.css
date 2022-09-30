@@ -1,0 +1,37 @@
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+    min-height: 60vh;
+
+}
+
+.title {
+    font-size: calc(2.5vw + 2.5vh);
+    color: white;
+}
+
+.titleContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.akatSymbol {
+    margin-right: 2%;
+    width: 8%;
+    height: 1%;
+}
+
+hr.solid {
+    border-top: 10px solid white ;
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .akatSymbol{
+    width: 15%;
+  }
+}

@@ -4,7 +4,7 @@
     align-items: flex-start;
     margin-left: 10%;
     margin-top: 10%;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .intro {
@@ -101,5 +101,8 @@
     .description{
         font-size: 16px;
         padding-bottom: 10px;
+    }
+    .resumeContainer{
+        display: none;
     }
 }

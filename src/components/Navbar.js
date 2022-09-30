@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className="sidenavbar">
             <div className="navitems">
                 <a href="#content">/home</a>
-                <a href="#about me">/about me </a>
+                <a href="#aboutme">/about me </a>
                 <a href="#experience">/experience </a>
                 <a href="#personal-projects">/personal-projects</a>
             </div>
