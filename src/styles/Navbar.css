@@ -1,0 +1,15 @@
+.sidenavbar {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    right: 0;
+    padding-right: 5%;
+    position: fixed;
+    bottom: 8%;
+}
+
+.navitems {
+    display: flex;
+    flex-direction: column;
+    row-gap:8px;
+}
