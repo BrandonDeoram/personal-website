@@ -14,7 +14,7 @@
     row-gap: 8px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
     .sidenavbar {
         display: none;
     }
