@@ -14,10 +14,31 @@
     min-height: 60vh;
 }
 
+.carouselItem {
+    /* border-radius: 50px; */
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+    /* height: 80%; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .5s;
+}
+
+.carouselItem:hover {
+
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+
 .carouselContainer {
-    padding: 4rem 0;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin-right: 10px;
+    padding: 3rem 0;
+    max-width: 1200px;
+    margin: 0;
     flex: 1 1;
     display: flex;
     flex-direction: column;

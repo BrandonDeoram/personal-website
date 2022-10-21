@@ -1,18 +1,18 @@
 import React from 'react'
 import "../styles/AboutMe.css";
-import img1 from "../images/akatLogo.png";
+import img0 from "../images/akatLogo.png";
+import img1 from "../images/goatApp.png";
+import img2 from "../images/food4Cause.png";
+import img3 from "../images/spamDetector.png";
 import styles from "../styles/PersonalProjects.module.css"
 import Carousel from "nuka-carousel";
 export default function PersonalProjects() {
-    var list = [<img src="src/images/akatLogo.png" alt='idk' />,
-    <img src="src/images/email.png" alt='idk' />,
-    <img src="src/images/me.jpg" alt='idk' />];
     return (
         <div id="personal-projects">
             <div className={styles.personal}>
                 <div className='titleContainer'>
                     <div className='akatSymbol'>
-                        <img src={img1} alt="" className='akatsukiImage' />
+                        <img src={img0} alt="" className='akatsukiImage' />
                     </div>
                     <div className='title'>
                         Personal Projects
@@ -21,9 +21,11 @@ export default function PersonalProjects() {
                 </div>
                 <div className={styles.carouselContainer}>
                     <Carousel >
-                        <img src={img1} alt='bruh' />
-                        <img src="../images/email.png" alt='idkasdddddddd' />
-                        <img src="../images/me.jpg" alt='iasddkddddddddddddddddddd' />
+                        <a href="https://github.com/BrandonDeoram/GoatApp">
+                            <img src={img1} alt='bruh' className={styles.carouselItem} />
+                        </a>
+                        <img src={img2} alt='email' className={styles.carouselItem} />
+                        <img src={img3} alt='blank' className={styles.carouselItem} />
                     </Carousel>
                 </div>
             </div>
