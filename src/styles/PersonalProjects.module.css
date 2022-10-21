@@ -77,6 +77,13 @@
     padding: 20px;
     width: 80%;
     height: 300px;
+    transition: transform .5s;
+}
+
+.moreProjectsCard:hover {
+    opacity: 80%;
+    transform: scale(1.05);
+    transition: transform .5s;
 }
 
 .moreProjectsCardRow {
@@ -84,13 +91,13 @@
 }
 
 .titleCard {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px 0px 20px;
 }
 
 .descriptionCard {
     word-spacing: 2px;
-    opacity: 80%;
+    opacity: 50%;
 }
 
 @media only screen and (max-width: 770px) {
@@ -105,7 +112,7 @@
 
     .gridContainer {
         margin-top: 5%;
-        width: 80%;
+        width: 100%;
         height: 100%;
         display: grid;
         resize: both;
