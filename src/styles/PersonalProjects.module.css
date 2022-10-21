@@ -4,6 +4,7 @@
     align-items: flex-start;
     margin-left: 5%;
     min-height: 60vh;
+
 }
 
 .personal {
@@ -11,7 +12,9 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 5%;
-    min-height: 60vh;
+    min-height: 100vh;
+    margin-top: 5%;
+
 }
 
 .carouselItem {
@@ -46,6 +49,50 @@
     align-items: center;
 }
 
+.gridContainer {
+    margin-top: 5%;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    resize: both;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+
+.grid-container>div {
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.moreProjectsCard {
+    background-color: var(--carouselBackgroundColor);
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 20px;
+    width: 80%;
+    height: 300px;
+}
+
+.moreProjectsCardRow {
+    margin-left: auto;
+}
+
+.titleCard {
+    font-size: 30px;
+    margin: 0px 0px 20px;
+}
+
+.descriptionCard {
+    word-spacing: 2px;
+    opacity: 80%;
+}
+
 @media only screen and (max-width: 770px) {
     .personal {
         display: flex;
@@ -54,5 +101,30 @@
         margin-top: 4rem;
         margin-left: 5%;
         min-height: 60vh;
+    }
+
+    .gridContainer {
+        margin-top: 5%;
+        width: 80%;
+        height: 100%;
+        display: grid;
+        resize: both;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        /* background-color: #2196F3; */
+        padding: 10px;
+    }
+
+    .carouselItem {
+        display: none;
+    }
+
+    .carouselItem:hover {
+
+        display: none;
+    }
+
+    .carouselContainer {
+        display: none;
     }
 }

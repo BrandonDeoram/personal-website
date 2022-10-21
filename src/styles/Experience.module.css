@@ -36,7 +36,10 @@
     flex-direction: column;
     margin-right: 5%;
 }
-
+.columnContainer:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
 
 .companyContainer {
     flex-wrap: wrap;
