@@ -96,13 +96,14 @@ li {
     color: var(--offWhite);
 }
 
-.outside{
+.outside {
     color: var(--offWhite);
 }
 
-.redText{
+.redText {
     color: var(--brightRed);
 }
+
 @media only screen and (max-width: 1320px) {
     .meContainer {
         margin-left: auto;
@@ -123,9 +124,12 @@ li {
     .descriptionContainer {
         margin-top: 2rem;
         width: 100%;
+        font-size: 18x;
         margin-right: 1rem;
     }
-
+    .technologyTitle{
+        font-size: 20px;
+    }
     .title {
         font-size: 30px;
     }
@@ -133,5 +137,9 @@ li {
     hr.solid {
         display: none;
 
+    }
+
+    .outside {
+        margin-bottom: 2rem;
     }
 }

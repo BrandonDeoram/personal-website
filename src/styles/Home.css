@@ -4,7 +4,7 @@
     align-items: flex-start;
     margin-left: 10%;
     margin-top: 10%;
-    min-height: 90vh;
+    min-height: 79vh;
 }
 
 .intro {
@@ -94,15 +94,20 @@
         margin-right: 2rem;
     }
 }
+
 @media only screen and (max-width: 600px) {
     #home {
         padding-top: 20px;
+        margin-bottom: 2rem;
+        min-height: 80vh;
     }
-    .description{
+
+    .description {
         font-size: 16px;
         padding-bottom: 10px;
     }
-    .resumeContainer{
+
+    .resumeContainer {
         display: none;
     }
 }

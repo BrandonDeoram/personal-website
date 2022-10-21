@@ -8,6 +8,7 @@
 }
 
 .rowContainer {
+    margin-bottom: 4rem;
     margin-left: 1rem;
     margin-top: 2rem;
     display: flex;
@@ -59,7 +60,7 @@
 
 .redText {
     width: 50%;
-    display:contents ;
+    display: contents;
     color: var(--brightRed)
 }
 
@@ -84,13 +85,16 @@
 
 @media only screen and (max-width: 770px) {
     .rowContainer {
-        margin:0px;
+        margin: 0px;
         flex-direction: column;
+        margin-top: 2rem;
     }
-    .columnContainer{
+
+    .columnContainer {
         width: 80%;
     }
-    .columnContainer:first-of-type{
+
+    .columnContainer:first-of-type {
         width: 80%;
     }
 }
