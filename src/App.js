@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
 import PersonalProjects from './components/PersonalProjects';
+import GetInTouch from './components/GetInTouch';
 export default function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ export default function App() {
         <Navbar></Navbar>
         <Experience />
         <PersonalProjects></PersonalProjects>
+        <GetInTouch />
       </div>
     </div>
   );

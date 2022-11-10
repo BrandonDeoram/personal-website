@@ -8,6 +8,7 @@ export default function Navbar() {
                 <a href="#aboutme">/about me </a>
                 <a href="#experience">/experience </a>
                 <a href="#personal-projects">/personal-projects</a>
+                <a href="#in-touch">/get-in-touch</a>
             </div>
         </div>
     )

@@ -48,7 +48,7 @@
 }
 
 .description {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: start;
@@ -56,14 +56,30 @@
     margin-top: 3%;
     color: var(--offWhite);
     line-height: 2;
+    
 }
+.iconSet{
+
+    align-items: center;
+}
+.icon{
+
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.description::after{
+    
+    /* position:absolute; */
+    bottom:5px;
+    padding-left:10px;
+  }
 
 .resumeContainer {
     margin-top: .5rem;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .resumeButton {
@@ -109,5 +125,9 @@
 
     .resumeContainer {
         display: none;
+    }
+    .icon{
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }
