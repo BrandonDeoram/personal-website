@@ -56,23 +56,26 @@
     margin-top: 3%;
     color: var(--offWhite);
     line-height: 2;
-    
+
 }
-.iconSet{
+
+.iconSet {
 
     align-items: center;
 }
-.icon{
+
+.icon {
 
     margin-right: 20px;
     margin-left: 10px;
 }
-.description::after{
-    
+
+.description::after {
+
     /* position:absolute; */
-    bottom:5px;
-    padding-left:10px;
-  }
+    bottom: 5px;
+    padding-left: 10px;
+}
 
 .resumeContainer {
     margin-top: .5rem;
@@ -92,6 +95,12 @@
     height: 30px;
     align-items: center;
     background-color: var(--darkRed);
+}
+.resumeButton:hover{
+    opacity: 80%;
+}
+.link {
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 916px) {
@@ -126,7 +135,8 @@
     .resumeContainer {
         display: none;
     }
-    .icon{
+
+    .icon {
         margin-right: 10px;
         margin-left: 10px;
     }

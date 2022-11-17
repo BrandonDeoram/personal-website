@@ -42,7 +42,7 @@ hr.solid {
     width: 100%;
 }
 
-.descriptionContainer {
+.descriptionContainer1 {
     color: var(--offWhite);
     line-height: 2;
     margin-left: 1%;
@@ -63,6 +63,8 @@ hr.solid {
 }
 
 .technologyTitle {
+    justify-content: start;
+    align-items: flex-start;
     margin-top: 1rem;
     font-size: 25px;
 }
@@ -141,5 +143,8 @@ li {
 
     .outside {
         margin-bottom: 2rem;
+    }
+    .rowContainer{
+        width: 220%;
     }
 }
